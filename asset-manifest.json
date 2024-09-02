@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bempong/bempong.github.io/static/css/main.01054ba8.css",
+    "main.js": "/bempong/bempong.github.io/static/js/main.b133484c.js",
+    "static/js/453.ab369344.chunk.js": "/bempong/bempong.github.io/static/js/453.ab369344.chunk.js",
+    "index.html": "/bempong/bempong.github.io/index.html",
+    "main.01054ba8.css.map": "/bempong/bempong.github.io/static/css/main.01054ba8.css.map",
+    "main.b133484c.js.map": "/bempong/bempong.github.io/static/js/main.b133484c.js.map",
+    "453.ab369344.chunk.js.map": "/bempong/bempong.github.io/static/js/453.ab369344.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01054ba8.css",
+    "static/js/main.b133484c.js"
+  ]
+}
