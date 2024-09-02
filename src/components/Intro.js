@@ -17,7 +17,7 @@ function Intro() {
         </p>
         
         <p className="text-lg mb-6">
-          I’m a computer science major / music minor @ Stanford University. I’ve been enamored with technology, art, and everything in-between ever since I can remember. Particularly interested in leveraging AI/ML to augment creative expression. Natural language, speech processing, and audio intelligence all pique my interest (as well as their industry applications).
+          I’m a computer science major / music minor @ Stanford University. I’ve been enamored with technology, art, and everything in-between ever since I can remember. Particularly interested in leveraging engineering principles to augment modern communication and audio. Personalization, Natural Language Processing, and Digital Audio all pique my interest (as well as their industry applications).
         </p>
         <p className="text-lg mb-6">Currently in pursuit of becoming <a href="https://artful.design/stuff/samples/pi.pdf" className="text-blue-500 hover:underline">pi-shaped</a>.</p>
         <p className="text-lg mb-6">
