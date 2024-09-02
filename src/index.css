@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles for the gradient text */
+.moving-gradient {
+  display: inline-block;
+  background: linear-gradient(
+    270deg,
+    #ff6b6b,   /* Soft Red */
+    #f6d365,   /* Soft Yellow */
+    #b6ffb3,   /* Soft Green */
+    #6bc5ff,   /* Soft Blue */
+    #a89eff,   /* Soft Purple */
+    #ff6b6b    /* Back to Soft Red */
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gradient animation */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Individual letter animations with different delays */
+.moving-gradient.h {
+  animation: gradient-animation 7s ease infinite 4s;
+}
+
+.moving-gradient.e {
+  animation: gradient-animation 7s ease infinite 3s;
+}
+
+.moving-gradient.y {
+  animation: gradient-animation 7s ease infinite 2s;
+}
+
+.moving-gradient.exclamation {
+  animation: gradient-animation 7s ease infinite 1s;
+}
