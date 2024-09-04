@@ -31,9 +31,9 @@ function Intro() {
           <a href="https://www.linkedin.com/in/andrew-bempong" className="flex items-center hover:underline mx-2">
             <FaLinkedin className="mr-1" /> 
           </a>
-          <a href="https://github.com/bempong" className="flex items-center hover:underline">
+          {/*<a href="https://github.com/bempong" className="flex items-center hover:underline">
             <FaGithub className="mr-1" />
-          </a>
+  </a>*/}
         </p>
       </div>
     </div>
